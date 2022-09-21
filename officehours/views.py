@@ -25,7 +25,7 @@ def choices_from_slots(slots):
 
 def index(request):
     if request.user.is_authenticated:
-        return redirect(reverse('my-request', args=["cmsc12100-aut-21"]))
+        return redirect(reverse('my-request', args=["cmsc12100-aut-22"]))
 
     context = {}
 
